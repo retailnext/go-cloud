@@ -41,19 +41,17 @@ require (
 	github.com/google/go-cmp v0.4.1
 	github.com/google/go-replayers/grpcreplay v1.0.0
 	github.com/google/go-replayers/httpreplay v0.1.2
-	github.com/google/martian v2.1.1-0.20190517191504-25dcb96d9e51+incompatible // indirect
 	github.com/google/uuid v1.1.1
 	github.com/google/wire v0.4.0
 	github.com/googleapis/gax-go v2.0.2+incompatible
 	github.com/googleapis/gax-go/v2 v2.0.5
 	github.com/lib/pq v1.7.0
-	github.com/mitchellh/mapstructure v1.3.2 // indirect
 	go.opencensus.io v0.22.3
+	gocloud.dev v0.20.1-0.20201130174759-333a9b0c16f6
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/tools v0.0.0-20200610052024-8d7dbee4c8ae // indirect
 	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543
 	google.golang.org/api v0.26.0
 	google.golang.org/genproto v0.0.0-20200610104632-a5b850bcf112
