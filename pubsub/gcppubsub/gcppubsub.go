@@ -429,11 +429,10 @@ func (s *subscription) ReceiveBatch(ctx context.Context, maxMessages int) ([]*dr
 		rm := rm
 		rmm := rm.Message
 		m := &driver.Message{
-			LoggableID: rmm.MessageId,
-			Body:       rmm.Data,
-			Metadata:   rmm.Attributes,
-			AckID:      rm.AckId,
-			AsFunc:     messageAsFunc(rmm, rm),
+			Body:     rmm.Data,
+			Metadata: rmm.Attributes,
+			AckID:    rm.AckId,
+			AsFunc:   messageAsFunc(rmm, rm),
 		}
 		ms = append(ms, m)
 	}
