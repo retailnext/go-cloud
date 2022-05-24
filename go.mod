@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module github.com/retailnext/go-cloud
+module gocloud.dev
 
 go 1.12
 
